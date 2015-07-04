@@ -18,7 +18,7 @@ var yard = require('yard');
 console.log(yard(5));
 //=> {cm: 457.2, in: 180, ft: 15}
 
-console.log(yard(5)['cm']);
+console.log(yard(5).cm);
 //=> 457.2
 ```
 
