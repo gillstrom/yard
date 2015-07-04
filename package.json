@@ -1,6 +1,6 @@
 {
   "name": "yard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert yard to cm, in and ft.",
   "license": "MIT",
   "repository": "gillstrom/yard",
