@@ -23,6 +23,12 @@ console.log(yard(5).cm);
 ```
 
 
+## Related
+
+* [inch](https://github.com/gillstrom/inch) - Convert inch to cm, ft and yd.
+* [centimeter](https://github.com/gillstrom/centimeter) - Convert centimeter to yd, in and ft.
+
+
 ## License
 
 MIT © [Andreas Gillström](http://github.com/gillstrom)
