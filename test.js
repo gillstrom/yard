@@ -1,12 +1,9 @@
-'use strict';
-var test = require('ava');
-var yard = require('./');
+import test from 'ava';
+import m from './';
 
-test('yard', function (t) {
-	t.plan(4);
-
-	t.assert(typeof yard(1) === 'object');
-	t.assert(yard(9).cm === 822.96);
-	t.assert(yard(7).in === 252);
-	t.assert(yard(5).ft === 15);
+test('yard', t => {
+	t.is(typeof m(1), 'object');
+	t.is(m(9).cm, 822.96);
+	t.is(m(7).in, 252);
+	t.is(m(5).ft, 15);
 });

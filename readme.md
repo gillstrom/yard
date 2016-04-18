@@ -13,7 +13,7 @@ $ npm install --save yard
 ## Usage
 
 ```js
-var yard = require('yard');
+const yard = require('yard');
 
 console.log(yard(5));
 //=> {cm: 457.2, in: 180, ft: 15}
